@@ -22,10 +22,10 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
         >
-          <p className="text-muted-foreground text-sm font-medium uppercase tracking-wider">Your Personal</p>
+          <p className="text-muted-foreground text-sm font-medium uppercase tracking-wider">AI-Powered</p>
           <h1 className="text-4xl font-serif text-foreground mt-2">
-            Welcome to<br />
-            <span className="text-primary">OmniStylist</span>
+            <span className="text-primary">OmniStylist</span><br />
+            <span className="text-2xl">Assistant</span>
           </h1>
           <p className="text-muted-foreground mt-3">
             AI-powered styling, personalized for you
