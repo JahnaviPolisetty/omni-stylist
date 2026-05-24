@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle with smooth border -->
+  <circle cx="256" cy="256" r="240" fill="#0f172a" stroke="url(#brandGradient)" stroke-width="12" />
+  <!-- Minimalist Hanger Path -->
+  <g stroke="url(#brandGradient)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Hanger Hook -->
+    <path d="M 256 200 C 256 170, 230 130, 256 130 C 282 130, 292 150, 292 165 C 292 185, 276 195, 256 200" fill="none" />
+    <!-- Hanger Triangle Body -->
+    <path d="M 120 310 L 256 205 L 392 310 Z" fill="none" />
+    <!-- Horizontal Crossbar (slightly indented for modern aesthetic) -->
+    <path d="M 140 310 L 372 310" />
+  </g>
+</svg>

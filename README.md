@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+# OmniStylist 👗✨
 
-## Project info
+OmniStylist is an **AI-powered omnichannel retail and fashion assistant** designed to bridge the gap between online inspiration and physical retail experiences. Built as a high-fidelity prototype for a student hackathon, OmniStylist provides shoppers with curated, context-aware styling advice, wardrobe recommendations, and instant in-store fitting reservations.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 Key Features
 
-There are several ways of editing your application.
+- **💬 Interactive AI Chat Stylist**: A conversational experience (styled like a sleek messaging app) that analyzes user style preferences, budget, and occasions to recommend custom outfits.
+- **🛍️ Curated Recommendations**: Personalized digital lookbooks showcasing coordinate outfits (e.g., Wedding Collection, Trending, Best Sellers) with direct, interactive detail pages.
+- **📍 Smart In-Store Reservations**: Instantly reserve selected outfits at the nearest retail outlet for physical fitting sessions.
+- **🕒 Real-time Fitting & Order Tracking**: Live visual timeline tracking the status of retail requests (from reservation confirmation to fitting room preparation).
+- **🎨 Premium Responsive UI**: An immersive, high-end mobile-first design leveraging glassmorphism, tailored animations, and a rich warm-amber palette (`#f97316`) for a luxurious fashion aesthetic.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+OmniStylist is built using a modern, fast, and modular frontend stack:
 
-**Use your preferred IDE**
+- **Core**: React 18 & TypeScript
+- **Bundler & Tooling**: Vite & PostCSS
+- **Styling**: Tailwind CSS & Framer Motion (for fluid micro-interactions and transitions)
+- **UI Components**: shadcn/ui (primitives built on Radix UI)
+- **State Management**: React Router 6 & TanStack Query (React Query)
+- **Icons**: Lucide React
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 💻 Local Development
 
-Follow these steps:
+Follow these simple steps to run the OmniStylist prototype locally on your system:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Ensure you have **Node.js (v18+)** and **npm** (or **Bun**) installed on your machine.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/JahnaviPolisetty/omni-stylist.git
+   cd omni-stylist
+   ```
 
-**Edit a file directly in GitHub**
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. **Start the local development server**:
+   ```bash
+   npm run dev
+   ```
 
-**Use GitHub Codespaces**
+4. **Open the application**:
+   Navigate to the local preview URL provided in your terminal (typically `http://localhost:8080` or `http://localhost:5173`).
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📐 Architecture & Prototype Structure
 
-This project is built with:
+The project has been structured cleanly into modular components:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- `/src/pages`: Individual screen layouts (Home, Chat, Recommendations, ProductDetails, Reserve, Confirmation, Tracking)
+- `/src/components/ui`: Custom reusable primitives (Buttons, Cards, Dialogs, Drawer, Toasts, custom `PageContainer` wrapper)
+- `/src/hooks`: Custom React hooks for interactive notifications and viewport diagnostics
+- `/public`: Static assets, vector icons (`favicon.svg`), and robots.txt
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🏆 Hackathon Context
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project was built by a student team during a fast-paced retail tech hackathon. It represents a functional design prototype demonstrating how modern AI and frontend technologies can transform traditional brick-and-mortar retail workflows.
